@@ -9,7 +9,7 @@ export default function () {
         <span>B</span>
       </Button>
       <Button color='green'>
-        1321321
+        132132112231
       </Button>
     </>
   )
