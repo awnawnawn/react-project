@@ -1,16 +1,11 @@
+import {RouterProvider} from 'react-router-dom'
 import Button from "../../components/Button"
 
 export default function () {
   return (
     <>
-      <Button color='green' className="m-4">
-        <span>A</span>
-        C
-        <span>B</span>
-      </Button>
-      <Button color='green'>
-        132132112231
-      </Button>
+      <div className="ml-4 p-4">
+      </div>
     </>
   )
 }
