@@ -35,7 +35,7 @@ module.exports = {
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/explicit-module-boundary-types': 'off',
 
-    'react/jsx-closing-bracket-location': [1, 'after-props'],
+    'react/jsx-closing-bracket-location': [1, 'line-aligned'],
     'react/jsx-closing-tag-location': 'warn',
     'react/jsx-curly-newline': ['warn', { multiline: 'consistent', singleline: 'consistent' }],
     'react/jsx-first-prop-new-line': ['warn', 'always'],

@@ -1,11 +1,14 @@
-import Sidebar from "./sidebar";
-import Main from "./main";
+import Sidebar from './sidebar';
+import Mian from './main';
 
-export default function () {
+export default function Layouts(){
+
   return (
-    <div className="flex p-4 h-screen">
+    <div
+      className='flex w-screen h-screen'
+    >
       <Sidebar />
-      <Main />
+      <Mian />
     </div>
-  )
+  );
 }

@@ -1,11 +1,9 @@
-import {RouterProvider} from 'react-router-dom'
-import Button from "../../components/Button"
+import { Outlet } from 'react-router-dom';
 
-export default function () {
+export default function Main (){
   return (
-    <>
-      <div className="ml-4 p-4">
-      </div>
-    </>
-  )
+    <div>
+      <Outlet />
+    </div>
+  );
 }
